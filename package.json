@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": ".eleventy.js",
+  "engines": {
+    "node": "12"
+  },
   "scripts": {
     "start": "eleventy --serve",
     "build": "NODE_ENV=production eleventy"
