@@ -1,0 +1,23 @@
+{
+  "name": "glitch-eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "NODE_ENV=production eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfjedimaster/glitch-eleventy.git"
+  },
+  "author": "Raymond Camden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfjedimaster/glitch-eleventy/issues"
+  },
+  "homepage": "https://github.com/cfjedimaster/glitch-eleventy#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
